@@ -1,14 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,300&display=swap");
-
-.App-logo {
-  height: 30vmin;
+:root {
+    --holberton-red: #e1484c;
 }
 
-.App-body {
-  margin: 50px 40px;
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
 }
 
-.App-container {
-  position: relative;
-  min-height: 100vh;
+div {
+    padding: 2px 8px;
+}
+
+.App {
+    position: relative;
+    min-height: 100vh;
 }
