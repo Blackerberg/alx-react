@@ -1,8 +1,15 @@
-.App-footer {
-  border-top: 3px solid #F2003A;
-  text-align: center;
-  font-style: italic;
-  font-size: 20;
-  font-family: 'Poppins', sans-serif;
+:root {
+    --holberton-red: #e1484c;
+}
 
+.App-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.App-footer p {
+    text-align: center;
+    border-top: 3px solid var(--holberton-red);
+    padding: 16px 0;
 }
